@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5360cd;
+  width: 12rem;
+  padding: 0.5rem 1.2rem;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.initials {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #3d52de;
+  border-radius: 0.25rem;
+}
