@@ -41,7 +41,7 @@ export function SideBar({lang, onClose}: SideBarProps): React.ReactElement {
         onClick={e => e.stopPropagation()}
       >
         <button className="btn btn-sm btn-close mb-3" onClick={onClose}></button>
-        <UserPick>Artem Malkin</UserPick>
+        <UserPick>Victoria R.</UserPick>
 
         <ul className="nav flex-column mt-3">
           {navLinks.map(({to, labelKey}) => (
